@@ -15,6 +15,8 @@ var add = function() {
     console.log(add);
     if (add < 0) {
         display.style.color = "red";
+    } else {
+        display.style.color = "black";
     }
     return add;
 }
@@ -27,6 +29,8 @@ var subtract = function() {
     console.log(sub);
     if (sub < 0) {
         display.style.color = "red";
+    } else {
+        display.style.color = "black";
     }
     return sub;
 }
